@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio Maralied</title>
+
+    <style>
+      .foto img {
+        width: 150px;
+        border-radius: 50%;
+      }
+
+      .item * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .item {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="inicio">
+      <nav>
+        <a href="#inicio">Inicio</a> |
+        <a href="#aprecentacao">Apresentação</a> |
+        <a href="#formacao">Formação</a> |
+        <a href="#experiencia">Experiencia</a> |
+        <a href="#contato">Contato</a>
+      </nav>
+      <div id="aprecentacao">
+        <figure class="foto">
+          <img src="img/foto.png" alt="Maralied" />
+        </figure>
+        <h1>Olá, sou Maralied Estudante de Desenvolvimento Backend</h1>
+        <p>
+          Atualmente trabalho como técnico de suporte ao usuário bilingue N1 na
+          Atos Brazil e estudo análise e desenvolvimento de sistemas na
+          faculdade UNOPAR. Também faço um curso de desenvolvimento backend com
+          a
+          <a href="https://totidiversidade.com.br/"><strong>Toti</strong></a>
+          onde estou aprendendo as Git, GitHub, HTML, CSS, Javascript, Testes de
+          software, MongoBD, SQLlite, API REST e Node JS.
+        </p>
+      </div>
+    </header>
+
+    <section id="formacao">
+      <h2>Formação</h2>
+      <ul>
+        <li class="item">
+          <small>Feb 2022 - Atualmente</small>
+          <h3>Análise e Desenvolvimento de Sistemas</h3>
+          <p>UNOPAR</p>
+        </li>
+        <li class="item">
+          <small>Mai 2022 - Atualmente</small>
+          <h3>Curso desenvolvimento backend</h3>
+          <p>Toti</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <ul>
+        <li class="item">
+          <small>Abr 2022 - Atualmente</small>
+          <h3>Técnico de suporte ao usuário 1N</h3>
+          <p>Atos Brazil</p>
+        </li>
+      </ul>
+    </section>
+
+    <footer id="contato">
+      <h2>Contato</h2>
+      <form action="">
+        <label for="nome">NOME:</label><br />
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Insira seu nome."
+        /><br />
+        <label for="email">EMAIL:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Insira seu email"
+        /><br />
+        <label for="assunto">ASSUNTO:</label><br />
+        <input
+          type="text"
+          id="assunto"
+          name="assunto"
+          placeholder="Insira o asunto"
+        /><br />
+        <label for="message">MENSSAGEM: </label><br />
+        <textarea name="menssagem" id="menssagem" cols="30" rows="10"></textarea
+        ><br />
+        <input type="submit" value="ENVIAR" />
+      </form>
+      <br />
+      <a href="https://www.linkedin.com/in/maralied/">LinkedIn</a> |
+      <a href="https://github.com/maraliedtafur" target="_blank">GitHub</a>
+    </footer>
+  </body>
+</html>
